@@ -5,5 +5,10 @@
 
 * {
     box-sizing: border-box;
-    font-family: Montserrat
+    font-family: Montserrat;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
