@@ -1,0 +1,40 @@
+.menu-container {
+    background-color: rgba(244, 244, 244);
+    border-radius: 7px;
+    padding: .25em 0em .25em .5em;
+    max-width: 25%;
+    min-width: 15%;
+    margin-top: 15px;
+    margin-left: 15px;
+    min-height: 95vh;
+}
+
+.menu-container-banner > h1 {
+    font-size: 1.5rem;
+}
+
+.menu-container-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.menu-container-tasks > h2, .menu-container-lists > h2 {
+    font-size: 1rem;
+}
+
+.menu-container-tasks > h3, .menu-container-lists-category-item > h3 {
+    font-size: 1.25rem;
+}
+
+.menu-burger {
+    background-image: url(../assets/burger-bar.png);
+    background-size: contain;
+    height: 35px;
+    width: 35px;
+    border: none;
+    background-color: rgba(244, 244, 244);
+    cursor: pointer;
+}

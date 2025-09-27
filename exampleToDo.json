@@ -19,5 +19,12 @@
     "description": "Schedule car maintenance.",
     "completed": true,
     "group": "Life"
+  },
+  {
+    "id": "4",
+    "title": "Buy Assemble24",
+    "description": "Amazon and ChoiceMusic LA have the album in stock",
+    "completed": true,
+    "group": "Wishlist"
   }
 ]
