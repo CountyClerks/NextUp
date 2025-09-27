@@ -6,7 +6,9 @@ function App() {
 
   return (
     <>
-      <Menu />
+      <section className="home">
+        <Menu />
+      </section>
     </>
   )
 }
