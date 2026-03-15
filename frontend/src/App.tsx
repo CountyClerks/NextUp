@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 import './App.css'
 import Menu from "./components/Menu"
+import Home from './pages/home'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <section className="home">
         <Menu />
+        <Home />
       </section>
     </>
   )
