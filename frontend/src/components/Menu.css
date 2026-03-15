@@ -1,0 +1,84 @@
+.menu-container {
+    background-color: rgba(244, 244, 244);
+    border-radius: 7px;
+    padding: .25em 0em .25em .5em;
+    max-width: 25%;
+    min-width: 15%;
+    margin-top: 15px;
+    margin-left: 15px;
+    min-height: 95vh;
+}
+
+.menu-container-banner > h1 {
+    font-size: 1.5rem;
+}
+
+.menu-container-tasks > h2, .menu-container-lists > h2 {
+    font-size: .85rem;
+}
+
+.menu-container-tasks > h3, .menu-container-lists-category-item > h3 {
+    font-size: 1.25rem;
+}
+
+.list-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-input-btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-input-create, .list-input-cancel {
+    width: 25%;
+}
+
+.list-color {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+.menu-container-new-list {
+    border: none;
+    background-color: rgba(244, 244, 244);
+    cursor: pointer;
+}
+
+.menu-container-new-list:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+.menu-open {
+    display: flex;
+    flex-direction: column;
+    border: 1px red solid;
+    border-radius: 7px;
+    margin-top: 8px;
+    max-width: 75%;
+}
+
+.menu-close {
+    display: none;
+}
+
+.menu-container-lists-category-item:hover, .week:hover, .today:hover {
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+}
+
+.week, .today {
+    display: flex;
+    align-items: center;
+}
+
+.week-icon, .today-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-container-thisweek, .menu-container-today {
+    margin-left: 10px;
+}

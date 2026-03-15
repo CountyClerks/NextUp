@@ -1,12 +1,16 @@
 // import { useState } from 'react'
 import './App.css'
 import Menu from "./components/Menu"
+import Home from './pages/home'
 
 function App() {
 
   return (
     <>
-      <Menu />
+      <section className="home">
+        <Menu />
+        <Home />
+      </section>
     </>
   )
 }
